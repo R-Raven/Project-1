@@ -96,7 +96,7 @@ Partial Class Opties
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 14.0!)
-        Me.Label4.Location = New System.Drawing.Point(330, 160)
+        Me.Label4.Location = New System.Drawing.Point(333, 157)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(73, 21)
         Me.Label4.TabIndex = 13

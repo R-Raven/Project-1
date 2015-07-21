@@ -94,6 +94,7 @@ Partial Class Launcher
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(163, 32)
         Me.Button5.TabIndex = 5
+        Me.Button5.Text = "TEST"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Exitbutton
