@@ -36,7 +36,7 @@ Partial Class Launcher
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(263, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(720, 112)
         Me.PictureBox1.TabIndex = 0
@@ -46,7 +46,7 @@ Partial Class Launcher
         '
         Me.NieuweCursist.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NieuweCursist.Location = New System.Drawing.Point(26, 140)
-        Me.NieuweCursist.Margin = New System.Windows.Forms.Padding(30, 3, 30, 3)
+        Me.NieuweCursist.Margin = New System.Windows.Forms.Padding(10)
         Me.NieuweCursist.Name = "NieuweCursist"
         Me.NieuweCursist.Size = New System.Drawing.Size(163, 32)
         Me.NieuweCursist.TabIndex = 1
@@ -56,8 +56,8 @@ Partial Class Launcher
         'HuidigeCursisten
         '
         Me.HuidigeCursisten.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HuidigeCursisten.Location = New System.Drawing.Point(249, 140)
-        Me.HuidigeCursisten.Margin = New System.Windows.Forms.Padding(30, 3, 30, 3)
+        Me.HuidigeCursisten.Location = New System.Drawing.Point(209, 140)
+        Me.HuidigeCursisten.Margin = New System.Windows.Forms.Padding(10)
         Me.HuidigeCursisten.Name = "HuidigeCursisten"
         Me.HuidigeCursisten.Size = New System.Drawing.Size(163, 32)
         Me.HuidigeCursisten.TabIndex = 2
@@ -67,8 +67,8 @@ Partial Class Launcher
         'CursusData
         '
         Me.CursusData.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CursusData.Location = New System.Drawing.Point(472, 140)
-        Me.CursusData.Margin = New System.Windows.Forms.Padding(30, 3, 30, 3)
+        Me.CursusData.Location = New System.Drawing.Point(392, 140)
+        Me.CursusData.Margin = New System.Windows.Forms.Padding(10)
         Me.CursusData.Name = "CursusData"
         Me.CursusData.Size = New System.Drawing.Size(163, 32)
         Me.CursusData.TabIndex = 3
@@ -78,8 +78,8 @@ Partial Class Launcher
         'Opties
         '
         Me.Opties.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Opties.Location = New System.Drawing.Point(1012, 140)
-        Me.Opties.Margin = New System.Windows.Forms.Padding(30, 3, 30, 3)
+        Me.Opties.Location = New System.Drawing.Point(575, 192)
+        Me.Opties.Margin = New System.Windows.Forms.Padding(10)
         Me.Opties.Name = "Opties"
         Me.Opties.Size = New System.Drawing.Size(163, 32)
         Me.Opties.TabIndex = 4
@@ -89,18 +89,17 @@ Partial Class Launcher
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(695, 140)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(30, 3, 30, 3)
+        Me.Button5.Location = New System.Drawing.Point(575, 140)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(10)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(163, 32)
         Me.Button5.TabIndex = 5
-        Me.Button5.Text = "TEST"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Exitbutton
         '
         Me.Exitbutton.Font = New System.Drawing.Font("Arial Narrow", 12.25!)
-        Me.Exitbutton.Location = New System.Drawing.Point(1064, 582)
+        Me.Exitbutton.Location = New System.Drawing.Point(575, 582)
         Me.Exitbutton.Name = "Exitbutton"
         Me.Exitbutton.Size = New System.Drawing.Size(138, 35)
         Me.Exitbutton.TabIndex = 76
@@ -111,7 +110,7 @@ Partial Class Launcher
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1214, 629)
+        Me.ClientSize = New System.Drawing.Size(748, 629)
         Me.Controls.Add(Me.Exitbutton)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Opties)
