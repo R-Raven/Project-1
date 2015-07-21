@@ -109,7 +109,7 @@ Partial Class Opties
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(138, 35)
         Me.Button6.TabIndex = 77
-        Me.Button6.Text = "Exit"
+        Me.Button6.Text = "Sluiten"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Opties
