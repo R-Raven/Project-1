@@ -104,7 +104,7 @@ Partial Class Launcher
         Me.Exitbutton.Name = "Exitbutton"
         Me.Exitbutton.Size = New System.Drawing.Size(138, 35)
         Me.Exitbutton.TabIndex = 76
-        Me.Exitbutton.Text = "Exit"
+        Me.Exitbutton.Text = "Afsluiten"
         Me.Exitbutton.UseVisualStyleBackColor = True
         '
         'Launcher
