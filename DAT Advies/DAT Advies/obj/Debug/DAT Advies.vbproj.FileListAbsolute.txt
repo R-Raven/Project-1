@@ -1,0 +1,6 @@
+C:\Users\P.B\AppData\Local\Temporary Projects\DAT Advies\bin\Debug\DAT Advies.exe.config
+C:\Users\P.B\Documents\Visual Studio 2013\Projects\DAT Advies\DAT Advies\bin\Debug\DAT Advies.exe.config
+C:\Users\P.B\Documents\Visual Studio 2013\Projects\DAT Advies\DAT Advies\obj\Debug\DAT Advies.vbprojResolveAssemblyReference.cache
+C:\Users\P.B\Documents\Visual Studio 2013\Projects\DAT Advies\DAT Advies\obj\Debug\DAT_Advies.Form2.resources
+C:\Users\P.B\Documents\Visual Studio 2013\Projects\DAT Advies\DAT Advies\obj\Debug\DAT_Advies.Login.resources
+C:\Users\P.B\Documents\Visual Studio 2013\Projects\DAT Advies\DAT Advies\obj\Debug\DAT Advies.vbproj.GenerateResource.Cache

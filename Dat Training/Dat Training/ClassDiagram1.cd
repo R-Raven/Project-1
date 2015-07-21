@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project1.Form1">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAwDkCAAAAQAAAAEQAAAAAAAA=</HashCode>
+      <FileName>Launcher Cursus.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Gegevens" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgEAgEKAAAAAAAECgwjgCABD/IAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gegevens.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Login" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAQCAAAAAAAACAABAiAAAAAgAACACBBAAAAAA=</HashCode>
+      <FileName>Login.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Dialog1" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABsEBwEKABEAAAAECgAhACAAD1AAgABQAQAQAAAAA=</HashCode>
+      <FileName>Nieuwe Cursist Formulier.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Form2" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAECAAAACAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opties Cursus.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
