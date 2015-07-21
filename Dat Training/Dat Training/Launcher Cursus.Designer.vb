@@ -120,7 +120,6 @@ Partial Class Launcher
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Launcher"
         Me.Text = "DAT Training"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
