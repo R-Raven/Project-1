@@ -52,7 +52,8 @@ Partial Class Login
         '
         'UsernameLabel
         '
-        Me.UsernameLabel.Location = New System.Drawing.Point(172, 24)
+        Me.UsernameLabel.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsernameLabel.Location = New System.Drawing.Point(172, 18)
         Me.UsernameLabel.Name = "UsernameLabel"
         Me.UsernameLabel.Size = New System.Drawing.Size(220, 23)
         Me.UsernameLabel.TabIndex = 0
@@ -61,7 +62,8 @@ Partial Class Login
         '
         'PasswordLabel
         '
-        Me.PasswordLabel.Location = New System.Drawing.Point(172, 81)
+        Me.PasswordLabel.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PasswordLabel.Location = New System.Drawing.Point(172, 69)
         Me.PasswordLabel.Name = "PasswordLabel"
         Me.PasswordLabel.Size = New System.Drawing.Size(220, 23)
         Me.PasswordLabel.TabIndex = 2
@@ -70,21 +72,24 @@ Partial Class Login
         '
         'UsernameTextBox
         '
-        Me.UsernameTextBox.Location = New System.Drawing.Point(174, 44)
+        Me.UsernameTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsernameTextBox.Location = New System.Drawing.Point(175, 44)
         Me.UsernameTextBox.Name = "UsernameTextBox"
-        Me.UsernameTextBox.Size = New System.Drawing.Size(220, 20)
+        Me.UsernameTextBox.Size = New System.Drawing.Size(220, 22)
         Me.UsernameTextBox.TabIndex = 1
         '
         'PasswordTextBox
         '
-        Me.PasswordTextBox.Location = New System.Drawing.Point(174, 101)
+        Me.PasswordTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PasswordTextBox.Location = New System.Drawing.Point(175, 95)
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.PasswordTextBox.Size = New System.Drawing.Size(220, 20)
+        Me.PasswordTextBox.Size = New System.Drawing.Size(220, 22)
         Me.PasswordTextBox.TabIndex = 3
         '
         'OK
         '
+        Me.OK.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OK.Location = New System.Drawing.Point(197, 161)
         Me.OK.Name = "OK"
         Me.OK.Size = New System.Drawing.Size(94, 23)
@@ -94,6 +99,7 @@ Partial Class Login
         'Cancel
         '
         Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Cancel.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cancel.Location = New System.Drawing.Point(300, 161)
         Me.Cancel.Name = "Cancel"
         Me.Cancel.Size = New System.Drawing.Size(94, 23)
