@@ -22,6 +22,7 @@ Partial Class Gegevens
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Gegevens))
         Me.Label15 = New System.Windows.Forms.Label()
         Me.FactuurWerkgever = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -63,13 +64,15 @@ Partial Class Gegevens
         Me.Geboortejaar = New System.Windows.Forms.TextBox()
         Me.Geboortemaand = New System.Windows.Forms.TextBox()
         Me.Geboortedag = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label15.Location = New System.Drawing.Point(9, 388)
+        Me.Label15.Location = New System.Drawing.Point(12, 364)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(77, 16)
         Me.Label15.TabIndex = 68
@@ -78,7 +81,7 @@ Partial Class Gegevens
         'FactuurWerkgever
         '
         Me.FactuurWerkgever.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.FactuurWerkgever.Location = New System.Drawing.Point(12, 413)
+        Me.FactuurWerkgever.Location = New System.Drawing.Point(15, 387)
         Me.FactuurWerkgever.Margin = New System.Windows.Forms.Padding(7)
         Me.FactuurWerkgever.Name = "FactuurWerkgever"
         Me.FactuurWerkgever.Size = New System.Drawing.Size(300, 23)
@@ -88,7 +91,7 @@ Partial Class Gegevens
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label16.Location = New System.Drawing.Point(12, 564)
+        Me.Label16.Location = New System.Drawing.Point(12, 529)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(132, 16)
         Me.Label16.TabIndex = 66
@@ -97,7 +100,7 @@ Partial Class Gegevens
         'Beroepsvereniging
         '
         Me.Beroepsvereniging.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Beroepsvereniging.Location = New System.Drawing.Point(11, 593)
+        Me.Beroepsvereniging.Location = New System.Drawing.Point(15, 552)
         Me.Beroepsvereniging.Margin = New System.Windows.Forms.Padding(7)
         Me.Beroepsvereniging.Name = "Beroepsvereniging"
         Me.Beroepsvereniging.Size = New System.Drawing.Size(300, 23)
@@ -106,7 +109,7 @@ Partial Class Gegevens
         'FactuurHuisnummer
         '
         Me.FactuurHuisnummer.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.FactuurHuisnummer.Location = New System.Drawing.Point(339, 475)
+        Me.FactuurHuisnummer.Location = New System.Drawing.Point(339, 440)
         Me.FactuurHuisnummer.Margin = New System.Windows.Forms.Padding(7)
         Me.FactuurHuisnummer.Name = "FactuurHuisnummer"
         Me.FactuurHuisnummer.Size = New System.Drawing.Size(79, 23)
@@ -115,7 +118,7 @@ Partial Class Gegevens
         'Huisnummer
         '
         Me.Huisnummer.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Huisnummer.Location = New System.Drawing.Point(338, 254)
+        Me.Huisnummer.Location = New System.Drawing.Point(339, 225)
         Me.Huisnummer.Margin = New System.Windows.Forms.Padding(7)
         Me.Huisnummer.Name = "Huisnummer"
         Me.Huisnummer.Size = New System.Drawing.Size(76, 23)
@@ -125,7 +128,7 @@ Partial Class Gegevens
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label7.Location = New System.Drawing.Point(110, 508)
+        Me.Label7.Location = New System.Drawing.Point(111, 476)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(47, 16)
         Me.Label7.TabIndex = 62
@@ -134,7 +137,7 @@ Partial Class Gegevens
         'FactuurPlaats
         '
         Me.FactuurPlaats.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.FactuurPlaats.Location = New System.Drawing.Point(114, 532)
+        Me.FactuurPlaats.Location = New System.Drawing.Point(114, 499)
         Me.FactuurPlaats.Margin = New System.Windows.Forms.Padding(7)
         Me.FactuurPlaats.Name = "FactuurPlaats"
         Me.FactuurPlaats.Size = New System.Drawing.Size(304, 23)
@@ -144,7 +147,7 @@ Partial Class Gegevens
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label12.Location = New System.Drawing.Point(334, 446)
+        Me.Label12.Location = New System.Drawing.Point(336, 417)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(86, 16)
         Me.Label12.TabIndex = 60
@@ -154,7 +157,7 @@ Partial Class Gegevens
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label13.Location = New System.Drawing.Point(12, 508)
+        Me.Label13.Location = New System.Drawing.Point(12, 476)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(67, 16)
         Me.Label13.TabIndex = 59
@@ -164,7 +167,7 @@ Partial Class Gegevens
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label14.Location = New System.Drawing.Point(9, 446)
+        Me.Label14.Location = New System.Drawing.Point(12, 417)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(45, 16)
         Me.Label14.TabIndex = 58
@@ -173,7 +176,7 @@ Partial Class Gegevens
         'FactuurPostcode
         '
         Me.FactuurPostcode.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.FactuurPostcode.Location = New System.Drawing.Point(11, 531)
+        Me.FactuurPostcode.Location = New System.Drawing.Point(15, 499)
         Me.FactuurPostcode.Margin = New System.Windows.Forms.Padding(7)
         Me.FactuurPostcode.Name = "FactuurPostcode"
         Me.FactuurPostcode.Size = New System.Drawing.Size(85, 23)
@@ -182,7 +185,7 @@ Partial Class Gegevens
         'FactuurAdres
         '
         Me.FactuurAdres.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.FactuurAdres.Location = New System.Drawing.Point(13, 475)
+        Me.FactuurAdres.Location = New System.Drawing.Point(15, 440)
         Me.FactuurAdres.Margin = New System.Windows.Forms.Padding(7)
         Me.FactuurAdres.Name = "FactuurAdres"
         Me.FactuurAdres.Size = New System.Drawing.Size(300, 23)
@@ -192,7 +195,7 @@ Partial Class Gegevens
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label11.Location = New System.Drawing.Point(108, 287)
+        Me.Label11.Location = New System.Drawing.Point(111, 252)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(83, 16)
         Me.Label11.TabIndex = 55
@@ -201,7 +204,7 @@ Partial Class Gegevens
         'Woonplaats
         '
         Me.Woonplaats.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Woonplaats.Location = New System.Drawing.Point(110, 316)
+        Me.Woonplaats.Location = New System.Drawing.Point(114, 275)
         Me.Woonplaats.Margin = New System.Windows.Forms.Padding(7)
         Me.Woonplaats.Name = "Woonplaats"
         Me.Woonplaats.Size = New System.Drawing.Size(304, 23)
@@ -211,7 +214,7 @@ Partial Class Gegevens
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label10.Location = New System.Drawing.Point(334, 225)
+        Me.Label10.Location = New System.Drawing.Point(336, 203)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(86, 16)
         Me.Label10.TabIndex = 53
@@ -230,7 +233,7 @@ Partial Class Gegevens
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label9.Location = New System.Drawing.Point(8, 357)
+        Me.Label9.Location = New System.Drawing.Point(12, 333)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(97, 16)
         Me.Label9.TabIndex = 50
@@ -240,7 +243,7 @@ Partial Class Gegevens
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label4.Location = New System.Drawing.Point(8, 287)
+        Me.Label4.Location = New System.Drawing.Point(12, 252)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(67, 16)
         Me.Label4.TabIndex = 49
@@ -250,7 +253,7 @@ Partial Class Gegevens
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label5.Location = New System.Drawing.Point(8, 225)
+        Me.Label5.Location = New System.Drawing.Point(12, 203)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 16)
         Me.Label5.TabIndex = 48
@@ -260,7 +263,7 @@ Partial Class Gegevens
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label6.Location = New System.Drawing.Point(9, 163)
+        Me.Label6.Location = New System.Drawing.Point(12, 150)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(113, 16)
         Me.Label6.TabIndex = 47
@@ -269,7 +272,7 @@ Partial Class Gegevens
         'Postcode
         '
         Me.Postcode.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Postcode.Location = New System.Drawing.Point(11, 316)
+        Me.Postcode.Location = New System.Drawing.Point(15, 275)
         Me.Postcode.Margin = New System.Windows.Forms.Padding(7)
         Me.Postcode.Name = "Postcode"
         Me.Postcode.Size = New System.Drawing.Size(85, 23)
@@ -278,7 +281,7 @@ Partial Class Gegevens
         'Adres
         '
         Me.Adres.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Adres.Location = New System.Drawing.Point(11, 254)
+        Me.Adres.Location = New System.Drawing.Point(15, 222)
         Me.Adres.Margin = New System.Windows.Forms.Padding(7)
         Me.Adres.Name = "Adres"
         Me.Adres.Size = New System.Drawing.Size(300, 23)
@@ -288,7 +291,7 @@ Partial Class Gegevens
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label3.Location = New System.Drawing.Point(12, 106)
+        Me.Label3.Location = New System.Drawing.Point(14, 97)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(86, 16)
         Me.Label3.TabIndex = 44
@@ -298,7 +301,7 @@ Partial Class Gegevens
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label2.Location = New System.Drawing.Point(337, 44)
+        Me.Label2.Location = New System.Drawing.Point(336, 44)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(56, 16)
         Me.Label2.TabIndex = 43
@@ -317,7 +320,7 @@ Partial Class Gegevens
         'BigNummer
         '
         Me.BigNummer.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.BigNummer.Location = New System.Drawing.Point(11, 135)
+        Me.BigNummer.Location = New System.Drawing.Point(15, 120)
         Me.BigNummer.Margin = New System.Windows.Forms.Padding(7)
         Me.BigNummer.Name = "BigNummer"
         Me.BigNummer.Size = New System.Drawing.Size(200, 23)
@@ -326,7 +329,7 @@ Partial Class Gegevens
         'Initialen
         '
         Me.Initialen.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Initialen.Location = New System.Drawing.Point(338, 73)
+        Me.Initialen.Location = New System.Drawing.Point(339, 67)
         Me.Initialen.Margin = New System.Windows.Forms.Padding(7)
         Me.Initialen.Name = "Initialen"
         Me.Initialen.Size = New System.Drawing.Size(76, 23)
@@ -335,7 +338,7 @@ Partial Class Gegevens
         'Achternaam
         '
         Me.Achternaam.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Achternaam.Location = New System.Drawing.Point(12, 73)
+        Me.Achternaam.Location = New System.Drawing.Point(15, 67)
         Me.Achternaam.Margin = New System.Windows.Forms.Padding(7)
         Me.Achternaam.Name = "Achternaam"
         Me.Achternaam.Size = New System.Drawing.Size(300, 23)
@@ -344,7 +347,7 @@ Partial Class Gegevens
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Button1.Location = New System.Drawing.Point(563, 62)
+        Me.Button1.Location = New System.Drawing.Point(586, 244)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(138, 72)
         Me.Button1.TabIndex = 69
@@ -354,7 +357,7 @@ Partial Class Gegevens
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Button2.Location = New System.Drawing.Point(563, 279)
+        Me.Button2.Location = New System.Drawing.Point(586, 400)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(138, 72)
         Me.Button2.TabIndex = 70
@@ -364,7 +367,7 @@ Partial Class Gegevens
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Button3.Location = New System.Drawing.Point(563, 167)
+        Me.Button3.Location = New System.Drawing.Point(586, 322)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(138, 72)
         Me.Button3.TabIndex = 71
@@ -375,7 +378,7 @@ Partial Class Gegevens
         '
         Me.PrintenFactuur.AutoSize = True
         Me.PrintenFactuur.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.PrintenFactuur.Location = New System.Drawing.Point(568, 28)
+        Me.PrintenFactuur.Location = New System.Drawing.Point(583, 225)
         Me.PrintenFactuur.Name = "PrintenFactuur"
         Me.PrintenFactuur.Size = New System.Drawing.Size(106, 16)
         Me.PrintenFactuur.TabIndex = 72
@@ -394,7 +397,7 @@ Partial Class Gegevens
         'GegevensWijzigen
         '
         Me.GegevensWijzigen.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.GegevensWijzigen.Location = New System.Drawing.Point(563, 547)
+        Me.GegevensWijzigen.Location = New System.Drawing.Point(586, 539)
         Me.GegevensWijzigen.Name = "GegevensWijzigen"
         Me.GegevensWijzigen.Size = New System.Drawing.Size(138, 72)
         Me.GegevensWijzigen.TabIndex = 74
@@ -404,7 +407,7 @@ Partial Class Gegevens
         'Exitbutton
         '
         Me.Exitbutton.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Exitbutton.Location = New System.Drawing.Point(563, 651)
+        Me.Exitbutton.Location = New System.Drawing.Point(586, 617)
         Me.Exitbutton.Name = "Exitbutton"
         Me.Exitbutton.Size = New System.Drawing.Size(138, 35)
         Me.Exitbutton.TabIndex = 75
@@ -415,7 +418,7 @@ Partial Class Gegevens
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label19.Location = New System.Drawing.Point(160, 196)
+        Me.Label19.Location = New System.Drawing.Point(154, 176)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(13, 16)
         Me.Label19.TabIndex = 80
@@ -425,7 +428,7 @@ Partial Class Gegevens
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Label20.Location = New System.Drawing.Point(73, 196)
+        Me.Label20.Location = New System.Drawing.Point(76, 176)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(13, 16)
         Me.Label20.TabIndex = 79
@@ -434,7 +437,7 @@ Partial Class Gegevens
         'Geboortejaar
         '
         Me.Geboortejaar.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Geboortejaar.Location = New System.Drawing.Point(185, 192)
+        Me.Geboortejaar.Location = New System.Drawing.Point(177, 173)
         Me.Geboortejaar.Margin = New System.Windows.Forms.Padding(7)
         Me.Geboortejaar.Name = "Geboortejaar"
         Me.Geboortejaar.Size = New System.Drawing.Size(61, 23)
@@ -443,7 +446,7 @@ Partial Class Gegevens
         'Geboortemaand
         '
         Me.Geboortemaand.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Geboortemaand.Location = New System.Drawing.Point(98, 192)
+        Me.Geboortemaand.Location = New System.Drawing.Point(92, 173)
         Me.Geboortemaand.Margin = New System.Windows.Forms.Padding(7)
         Me.Geboortemaand.Name = "Geboortemaand"
         Me.Geboortemaand.Size = New System.Drawing.Size(52, 23)
@@ -452,17 +455,27 @@ Partial Class Gegevens
         'Geboortedag
         '
         Me.Geboortedag.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.Geboortedag.Location = New System.Drawing.Point(11, 192)
+        Me.Geboortedag.Location = New System.Drawing.Point(15, 173)
         Me.Geboortedag.Margin = New System.Windows.Forms.Padding(7)
         Me.Geboortedag.Name = "Geboortedag"
         Me.Geboortedag.Size = New System.Drawing.Size(52, 23)
         Me.Geboortedag.TabIndex = 76
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(8, 658)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(720, 28)
+        Me.PictureBox2.TabIndex = 81
+        Me.PictureBox2.TabStop = False
+        '
         'Gegevens
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(713, 698)
+        Me.ClientSize = New System.Drawing.Size(736, 698)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Geboortejaar)
@@ -507,6 +520,7 @@ Partial Class Gegevens
         Me.Name = "Gegevens"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gegevens"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -552,4 +566,5 @@ Partial Class Gegevens
     Friend WithEvents Geboortejaar As System.Windows.Forms.TextBox
     Friend WithEvents Geboortemaand As System.Windows.Forms.TextBox
     Friend WithEvents Geboortedag As System.Windows.Forms.TextBox
+    Friend WithEvents PictureBox2 As Windows.Forms.PictureBox
 End Class
